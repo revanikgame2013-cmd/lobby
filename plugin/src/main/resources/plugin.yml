@@ -1,0 +1,16 @@
+name: ManiacLobby
+version: 1.0.0
+main: dev.maniaclobby.LobbyPlugin
+api-version: '1.21'
+description: Лобби с кнопкой "Играть", готовностью, ролями и стартом от лидера
+commands:
+  play:
+    description: Открыть меню лобби
+    usage: /play
+  lobby:
+    description: Управление лобби
+    usage: /lobby <ready|role|start|leave|setlobby|setgame|end>
+permissions:
+  maniaclobby.admin:
+    description: Настройка лобби и завершение игры
+    default: op

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "maniaclobby",
+  "version": "${version}",
+  "name": "Maniac Lobby",
+  "description": "Меню лобби: кнопка «Играть», готовность игроков, выбор роли, старт от лидера.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.maniaclobby.client.ManiacLobbyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
